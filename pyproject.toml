@@ -1,0 +1,15 @@
+[project]
+name = "xsd2xml"
+version = "0.0.1"
+description = "XSD to XML converter"
+
+authors = [
+    { name = "Pedro Fortes", email = "pedro.daniel.g@gmail.com"}
+]
+dependencies = [
+    "rstr>=3.2.2",
+    "xmlschema==2.0.4",
+    "lxml>=5.1.0",
+]
+readme = "README.md"
+requires-python = ">= 3.6"
